@@ -91,7 +91,7 @@ a:hover {
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
-  border-radius: 8px;
+  border-radius: 25px;
   font-family: Arial;
   color: #ffffff;
   font-size: 20px;
@@ -112,7 +112,7 @@ a:hover {
   background-image: linear-gradient(to bottom, #2bc4ad, #2bc4ad);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
-  border-radius: 8px;
+  border-radius: 25px;
   font-family: Arial;
   color: #ffffff;
   font-size: 20px;
@@ -128,6 +128,7 @@ a:hover {
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
+  border-radius: 25px;
 }
 p {
   line-height: 2;
@@ -143,4 +144,33 @@ hr {
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
+}
+
+.nav-bar {
+  display: flex;
+  margin-left: 3rem;
+}
+.nav-bar:hover {
+  background: none;
+}
+.nav-items:hover {
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.contact-me-btn {
+  background: #91d8e4;
+  background-image: -webkit-linear-gradient(top, #2bc4ad, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #2bc4ad, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #2bc4ad, #2bc4ad);
+  background-image: -o-linear-gradient(top, #2bc4ad, #2bc4ad);
+  background-image: linear-gradient(to bottom, #2bc4ad, #2bc4ad);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 25px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
